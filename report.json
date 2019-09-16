@@ -1,0 +1,144 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "User Login with valid Credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12661371500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User in Homepage",
+            "match": {
+              "location": "test.user_in_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4846788000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Username and Password and click on Login Button",
+            "match": {
+              "location": "test.user_enters_Username_and_Password_and_click_on_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5675400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Logged verified",
+            "match": {
+              "location": "test.user_Logged_verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-16T05:28:48.920Z",
+        "line": 12,
+        "name": "Successfull checkout",
+        "description": "",
+        "id": "end-to-end-product-purchase;successfull-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 837190100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Searches for Electronics,Headphone",
+            "match": {
+              "location": "test.user_searches_for_Electronics_Headphone()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 681382300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User add the product to the Shopping cart",
+            "match": {
+              "location": "test.user_add_the_product_to_the_Shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//*[@id\u003d\"cart\"]/tfoot/tr[2]/td[5]/a\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027CDC2-D-48H5N62\u0027, ip: \u002710.237.17.29\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat test.test.user_proceeds_for_checkout(test.java:70)\r\n\tat ✽.User proceeds for checkout(classpath:test/out.feature:15)\r\n",
+              "duration": 19696903900,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "User proceeds for checkout",
+            "match": {
+              "location": "test.user_proceeds_for_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41900,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Select bank and Add Credentials",
+            "match": {
+              "location": "test.select_bank_and_Add_Credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29300,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User directed to Thankyou Page",
+            "match": {
+              "location": "test.user_directed_to_Thankyou_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "End to End Product purchase",
+    "description": "   This shows the Linda purchase for product",
+    "id": "end-to-end-product-purchase",
+    "keyword": "Feature",
+    "uri": "classpath:test/out.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
